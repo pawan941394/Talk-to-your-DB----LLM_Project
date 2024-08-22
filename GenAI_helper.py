@@ -16,7 +16,7 @@ from few_shorts import few_shots
 warnings.filterwarnings("ignore")
 
 # Set environment variables for API keys
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyDAhLk0ilN-Npqi8BWJqqxVVAYhKECEqnU'
+os.environ["GOOGLE_API_KEY"] = 'Your API key'
 
 def get_few_shots_Db_Chain():
     # Initialize LLM using GoogleGenerativeAI
