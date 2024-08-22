@@ -10,17 +10,19 @@
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Configuration](#configuration)
+- [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
-**Talk To Your DB** is a web-based application built using [Streamlit](https://streamlit.io/), designed to help users interact with their database using natural language. This tool uses Generative AI to transform user questions into SQL queries and fetches accurate results from the database.
+**Talk To Your DB** is a web-based application designed to bridge the gap between natural language and SQL queries. With this tool, users can interact with their databases simply by asking questions in plain English. This application is particularly useful for non-technical users who need to extract specific data from databases without writing SQL queries.
 
 ## Features
-- Converts natural language questions into SQL queries.
-- Fetches data from your database and provides answers directly in the app.
-- Uses **Google Generative AI** for natural language processing.
-- Simple and intuitive interface built with Streamlit.
+- **Natural Language to SQL**: Converts natural language questions into SQL queries automatically.
+- **Real-time Data Access**: Fetches and displays data from your database based on the generated SQL queries.
+- **Powered by AI**: Utilizes **Google Generative AI** for natural language understanding and processing.
+- **User-Friendly Interface**: Built with **Streamlit**, offering a clean and easy-to-use interface.
+- **Few-Shot Learning**: Includes a set of predefined examples to improve query generation accuracy.
 
 ## Installation
 
@@ -60,6 +62,8 @@ Before you can run this tool, you need to have the following installed:
 
 3. The application will generate an SQL query, execute it, and display the results.
 
+4. You can also modify and run the predefined few-shot examples to better understand the tool's capabilities.
+
 ## Dependencies
 
 The key dependencies for this project are:
@@ -67,6 +71,8 @@ The key dependencies for this project are:
 - [LangChain](https://github.com/hwchase17/langchain) for natural language processing.
 - [Google Generative AI](https://cloud.google.com/genai) for embeddings.
 - MySQL for database management.
+- [Chroma](https://www.trychroma.com/) for vector storage and retrieval.
+- [HuggingFace Embeddings](https://huggingface.co/) for semantic similarity matching.
 
 You can find all the dependencies listed in the `requirements.txt` file.
 
@@ -75,3 +81,17 @@ You can find all the dependencies listed in the `requirements.txt` file.
 Make sure to configure your **Google API key** as an environment variable:
 ```bash
 export GOOGLE_API_KEY='your-google-api-key'
+```
+
+## Examples
+Here are a few example questions you can ask:
+
+    1. "How many t-shirts do we have left for Nike in XS size and white color?"
+    2. "How much is the total price of the inventory for all S-size t-shirts?"
+    3. "If we have to sell all the Levi’s T-shirts today with discounts applied, how much revenue will our store generate?"
+
+These examples will demonstrate how the application transforms questions into SQL queries and fetches results from the database.
+
+## Contributing
+
+Contributions are welcome! If you have any improvements or suggestions, please feel free to submit a pull request or open an issue.
