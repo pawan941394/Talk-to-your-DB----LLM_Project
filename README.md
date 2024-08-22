@@ -12,7 +12,6 @@
 - [Configuration](#configuration)
 - [Examples](#examples)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 **Talk To Your DB** is a web-based application designed to bridge the gap between natural language and SQL queries. With this tool, users can interact with their databases simply by asking questions in plain English. This application is particularly useful for non-technical users who need to extract specific data from databases without writing SQL queries.
