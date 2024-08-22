@@ -87,8 +87,14 @@ export GOOGLE_API_KEY='your-google-api-key'
 Here are a few example questions you can ask:
 
     1. "How many t-shirts do we have left for Nike in XS size and white color?"
+    ![image](https://github.com/user-attachments/assets/ecab5bb4-37c7-4c66-a803-863b62cbc855)
+
     2. "How much is the total price of the inventory for all S-size t-shirts?"
+    ![image](https://github.com/user-attachments/assets/1e6a761d-4920-417e-89f4-3dd184e1e9f7)
+
     3. "If we have to sell all the Levi’s T-shirts today with discounts applied, how much revenue will our store generate?"
+    ![image](https://github.com/user-attachments/assets/c7fa707d-d62e-4e63-9b60-aa49950533a0)
+
 
 These examples will demonstrate how the application transforms questions into SQL queries and fetches results from the database.
 
