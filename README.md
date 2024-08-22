@@ -1,6 +1,7 @@
 # Talk To Your DB 🗃️
 
-![image](https://github.com/user-attachments/assets/7e9406c3-25b9-43ff-b68d-83816eb1e51c)
+![image](https://github.com/user-attachments/assets/20d16219-72e7-4366-99a0-e925a9d4b8b2)
+
 <!-- Replace with the URL to your screenshot -->
 
 ## Table of Contents
